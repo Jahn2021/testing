@@ -1,0 +1,1567 @@
+body {
+    margin: 0px;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+}
+
+.pan {
+    height: 100%;
+    width: 33.3%;
+    float: left;
+    text-align: left;
+}
+
+.pan img {
+    width: 42%;
+    margin-top: 0px;
+    margin-left: 40px;
+}
+
+.opciones {
+    height: auto;
+    width:33.3%;
+    float: right;
+    margin-top: 40px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.opciones a {
+    color: white;
+    text-decoration: none;
+    margin-right: 45px;
+    font-family: rockwell;
+    font-size: 17px;
+}
+
+* {
+				margin:0px;
+				padding:0px;
+			}
+			
+			#header {
+				margin:auto;
+				width:100%;
+				font-family: rockwell;
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+			
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+				background-color:black;
+				color:white;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background-color:black;
+			}
+			
+			.nav li ul {
+                display:none;
+                position: absolute;
+				min-width:140px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position: relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+
+main {
+    margin: 0px;
+}
+
+section {
+    height: 90vh;
+    
+}
+/*Carrusel*/
+.carrousel {
+    margin-top: 0px;
+    width: 100%;
+    background-color: black;
+}
+
+.conteCarrousel {
+    width: 100%;
+    height: 510px;
+    overflow: hidden;
+}
+
+.itemCarrousel {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.itemCarrouselTarjeta {
+    width: 100%;
+    height: 100%;
+}
+
+.itemCarrouselArrows {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+.itemCarrouselArrows > i:hover {
+    cursor: pointer;
+}
+
+#itemCarrousel-1 {
+    background-image: url(imagen%204.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#itemCarrousel-2 {
+    background-image: url(imagen%205.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#itemCarrousel-3 {
+    background-image: url(imagen%206.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.conteCarrouselController {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.conteCarrouselController > a {
+    text-decoration: none;
+    font-size: 2em;
+    color: grey;
+}
+
+.itemCarrouselArrows > a > i {
+    color: white;
+}
+
+.figura {
+    background-image: url(imagen%203.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+    float: center;
+}
+
+.icono {
+    background-image: url(60287.jpg);
+    background-size: cover;
+    background-position: left;
+    width: 50%;
+    height: 1000px;
+    position: absolute;
+    flex-direction: row;
+    margin: 52px 0px; 
+}
+
+.icono h1 {
+    font-family: rockwell;
+    text-align: left;
+    width: 50%;
+    font-size: 40px;
+    background-position: left;
+    float: left;
+    margin-top: 200px;
+    margin-left: 70px;
+}
+
+.idea {
+    background-image: url(imagen%201.jpg);
+    background-size: cover;
+    background-position: right;
+    width: 50%;
+    height: 1000px;
+    float: right;
+    margin: 52px 0px;
+}
+
+.redes h1{
+    font-family: rockwell;
+    text-align: left;
+    width: 33.3%;
+    font-size: 25px;
+    background-position: left;
+    float: left;
+    height: 0px;
+    margin-top: 580px;
+    margin-left: 30px;
+}
+
+.redes {
+    height: 50%;
+    width: 33.3%;
+    float: left;
+    text-align: left;
+}
+.redes img {
+    position: absolute;
+    width: 3.5%;
+    margin-top: 620px;
+    margin-left: 20px;
+}
+
+.punto {
+    height: 10%;
+    width: 33.3%;
+    float: left;
+    text-align: left;
+}
+
+.punto img {
+    width: 5%;
+    position: absolute;
+    margin-top: 339px;
+    margin-left: 64px;
+}
+
+.parrafo {
+    background-image: url(Y.jpg);
+    height: 10%;
+    width: 5%;
+    float: left;
+    text-align: left;
+    position: absolute;
+    background-size: cover;
+    margin-top: 616px;
+    margin-left: 132px;
+}
+
+
+.redes h2 {
+    position: absolute;
+     font-family: rockwell;
+    text-align: left;
+    width: 50%;
+    font-size: 17px;
+    background-position: left;
+    float: left;
+    height: 0px;
+    margin-top: 700px;
+    margin-left: 30px;
+}
+
+.redes h3{
+ position: absolute;
+     font-family: rockwell;
+    text-align: left;
+    width: 50%;
+    font-size: 17px;
+    background-position: left;
+    float: left;
+    height: 0px;
+    margin-top: 735px;
+    margin-left: 31px;
+}
+
+.redes h4 {
+     position: absolute;
+     font-family: rockwell;
+    text-align: left;
+    width: 50%;
+    font-size: 17px;
+    background-position: left;
+    float: left;
+    height: 0px;
+    margin-top: 770px;
+    margin-left: 31px;
+}
+.guion {
+   background-image: url(P.jpg);
+    height: 10%;
+    width: 5%;
+    float: left;
+    text-align: left;
+    position: absolute;
+    background-size: cover;
+    margin-top: 615px;
+    margin-left: 200px; 
+}
+
+.yo {
+   height: 100%;
+    width: 10%;
+    float: left;
+    text-align: left;  
+}
+
+.yo a {
+     color: black;
+    text-decoration: none;
+    font-family: rockwell;
+}
+
+.yo h1{
+    font-family: rockwell;
+    text-align: left;
+    font-size: 25px;
+    background-position: left;
+    float: left;
+    height: 10%;
+    width: 200%;
+    margin-top: 305px;
+    margin-left: 350px;
+}
+
+.yo h2 {
+    position: absolute;
+    font-family: rockwell;
+    text-align: left;
+    font-size: 17px;
+    background-position: left;
+    float: left;
+    width: 10%;
+    height: 10%;
+    margin-top: 355px;
+    margin-left: 350px;
+}
+
+.yo h3{
+    position: absolute;
+    font-family: rockwell;
+    text-align: left;
+    font-size: 17px;
+    background-position: left;
+    float: left;
+    height: 10%;
+    margin-top: 376px;
+    margin-left: 350px;
+}
+
+.yo h4 {
+    position: absolute;
+    font-family: rockwell;
+    text-align: left;
+    font-size: 17px;
+    background-position: left;
+    float: left;
+    height: 10%;
+    margin-top: 398px;
+    margin-left: 350px;
+}
+
+.yo h5 {
+    position: absolute;
+    font-family: rockwell;
+    text-align: left;
+    font-size: 17px;
+    background-position: left;
+    float: left;
+    height: 10%;
+    margin-top: 419px;
+    margin-left: 350px;
+}
+
+.tu {
+    height: 5%;
+    width: 33.3%;
+    float: left;
+    text-align: left;  
+}
+
+.tu a {
+     color: black;
+    text-decoration: none;
+    font-family: rockwell;
+}
+
+.tu h1{
+    font-family: rockwell;
+    text-align: left;
+    font-size: 25px;
+    background-position: left;
+    float: left;
+    height: 10%;
+    width: 50%;
+    margin-top: 23px;
+    margin-left: 500px;
+}
+
+.tu h2 {
+    position: absolute;
+    font-family: rockwell;
+    text-align: left;
+    font-size: 17px;
+    background-position: left;
+    float: left;
+    height: 10%;
+    margin-top: 72px;
+    margin-left: 500px;
+}
+
+.tu h3 {
+    position: absolute;
+    font-family: rockwell;
+    text-align: left;
+    font-size: 17px;
+    background-position: left;
+    float: left;
+    height: 10%;
+    margin-top: 95px;
+    margin-left: 500px;
+}
+
+.tu h4 {
+    position: absolute;
+    font-family: rockwell;
+    text-align: left;
+    font-size: 17px;
+    background-position: left;
+    float: left;
+    height: 10%;
+    margin-top: 120px;
+    margin-left: 500px;
+}
+
+.quienes {
+    background-image: url(Fondo1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    width: 50%;
+    float: center;
+}
+
+.quienes h1 {
+    position: absolute;
+    width: 50%;
+    color: white;
+    font-family: rockwell;
+    font-size: 80px;
+    margin-top: 230px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+.quienes h2 {
+    position: absolute;
+    width: 50%;
+    color: white;
+    font-family: rockwell;
+    font-size: 80px;
+    margin-top: 310px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+.quienes h3 {
+    position: absolute;
+    width: 45%;
+    font-family: rockwell;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 665px;
+    margin-top: 170px;
+}
+
+.quienes h4 {
+    position: absolute;
+    width: 45%;
+    font-family: rockwell;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 665px;
+    margin-top: 310px;
+}
+
+.quienes h5 {
+    position: absolute;
+    width: 45%;
+    font-family: rockwell;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 665px;
+    margin-top: 430px;
+}
+
+.tienda {
+    position: absolute;
+    background-image: url(Fondo2.jpg);
+    background-size: cover;
+    margin-left: 631px;
+    height: 700px;
+    margin-top: 151px ;
+    width: 50%;
+}
+
+.estadisticas {
+    background-image: url(estadisticas.jpeg);
+    position: absolute;
+    width: 49%;
+    height: 50%;
+    background-size:cover;
+    margin-top: 290px;
+    margin-left: 10px;
+}
+
+.invitacion {
+    background-image: url(Fondo3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    width: 50%;
+    margin-top: 302px;
+    float: center;
+}
+
+.invitacion h1 {
+    position: absolute;
+     width: 50%;
+    color: white;
+    font-family: rockwell;
+    font-size: 70px;
+    margin-top: 130px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+.invitacion h2 {
+   position: absolute;
+    width: 45%;
+    font-family: rockwell;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 665px;
+    margin-top: 210px;
+}
+
+.invitacion h3 {
+   position: absolute;
+    width: 30%;
+    font-family: rockwell;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 760px;
+    margin-top: 260px; 
+}
+
+.invitacion h4 {
+    position: absolute;
+    width: 30%;
+    font-family: rockwell;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 760px;
+    margin-top: 380px;
+}
+
+.invitacion h5 {
+    position: absolute;
+    width: 30%;
+    font-family: rockwell;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 760px;
+    margin-top: 500px;
+}
+
+.envia {
+    background-image: url(Fondo4.jpg);
+    width: 100%;
+    height: 700px;
+    margin-top: 151px ;
+     background-size: cover;
+    background-position: center;
+}
+
+.envia h1 {
+     position: absolute;
+     width: 50%;
+    font-family: rockwell;
+    font-size: 15px;
+    margin-top: 200px;
+    margin-left: 320px;
+    text-align: center;
+}
+
+.envia h2 {
+    position: absolute;
+     width: 100%;
+    font-family: rockwell;
+    font-size: 15px;
+    margin-top: 295px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+.envia h3 {
+    position: absolute;
+     width: 100%;
+    font-family: rockwell;
+    font-size: 15px;
+    margin-top: 320px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+.envia h4 {
+    position: absolute;
+     width: 100%;
+    font-family: rockwell;
+    font-size: 15px;
+    margin-top: 345px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+.envia h5 {
+    position: absolute;
+     width: 100%;
+    font-family: rockwell;
+    font-size: 15px;
+    margin-top: 370px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+.envia h6 {
+    position: absolute;
+     width: 50%;
+    font-family: rockwell;
+    font-size: 15px;
+    margin-top: 450px;
+    margin-left: 320px;
+    text-align: center;
+}
+
+.sociales { 
+    height: 10%;
+    width: 33.3%;
+    float: left;
+    text-align: left;
+}
+
+.sociales img {
+    position: absolute;
+    width: 3.5%;
+    margin-top: 270px;
+    margin-left: 30px; 
+}
+
+.sociales h1 {
+   font-family: rockwell;
+    text-align: left;
+    width: 33.3%;
+    font-size: 25px;
+    background-position: left;
+    float: left;
+    height: 0px;
+    margin-top: 230px;
+    margin-left: 30px; 
+}
+
+.sociales h2 {
+   position: absolute;
+     font-family: rockwell;
+    text-align: left;
+    width: 50%;
+    font-size: 17px;
+    background-position: left;
+    float: left;
+    height: 0px;
+    margin-top: 370px;
+    margin-left: 30px; 
+}
+
+.sociales h3 {
+    position: absolute;
+     font-family: rockwell;
+    text-align: left;
+    width: 50%;
+    font-size: 17px;
+    background-position: left;
+    float: left;
+    height: 0px;
+    margin-top: 425px;
+    margin-left: 31px;
+}
+
+.sociales h4 {
+    position: absolute;
+     font-family: rockwell;
+    text-align: left;
+    width: 50%;
+    font-size: 17px;
+    background-position: left;
+    float: left;
+    height: 0px;
+    margin-top: 450px;
+    margin-left: 30px;
+}
+
+.coma {
+    position: absolute;
+     height: 10%;
+    width: 33.3%;
+    float: left;
+    text-align: left;
+}
+
+.coma img {
+    width: 15%;
+    position: absolute;
+    margin-top: 264px;
+    margin-left: 70px;
+}
+
+.enunciado {
+    background-image: url(Y.jpg);
+    height: 10%;
+    width: 5%;
+    float: left;
+    text-align: left;
+    position: absolute;
+    background-size: cover;
+    margin-top: 268px;
+    margin-left: 132px;
+}
+
+.igual {
+    background-image: url(P.jpg);
+    height: 10%;
+    width: 5%;
+    float: left;
+    text-align: left;
+    position: absolute;
+    background-size: cover;
+    margin-top: 268px;
+    margin-left: 200px; 
+}
+
+.el {
+  height: 10%;
+    width: 10%;
+    float: left;
+    text-align: left;  
+}
+
+.el a {
+    color: black;
+    text-decoration: none;
+    font-family: rockwell;
+}
+
+.el h1 {
+   font-family: rockwell;
+    text-align: left;
+    font-size: 25px;
+    background-position: left;
+    float: left;
+    height: 10%;
+    width: 200%;
+    margin-top: 230px;
+    margin-left: 350px; 
+}
+
+.el h2 {
+     position: absolute;
+    font-family: rockwell;
+    text-align: left;
+    font-size: 17px;
+    background-position: left;
+    float: left;
+    width: 10%;
+    height: 10%;
+    margin-top: 290px;
+    margin-left: 350px;
+}
+
+.el h3 {
+    position: absolute;
+    font-family: rockwell;
+    text-align: left;
+    font-size: 17px;
+    background-position: left;
+    float: left;
+    height: 10%;
+    margin-top: 310px;
+    margin-left: 350px;
+}
+
+.el h4 {
+    position: absolute;
+    font-family: rockwell;
+    text-align: left;
+    font-size: 17px;
+    background-position: left;
+    float: left;
+    height: 10%;
+    margin-top: 330px;
+    margin-left: 350px;
+}
+
+.el h5 {
+    position: absolute;
+    font-family: rockwell;
+    text-align: left;
+    font-size: 17px;
+    background-position: left;
+    float: left;
+    height: 10%;
+    margin-top: 350px;
+    margin-left: 350px;
+}
+
+.la {
+    height: 5%;
+    width: 33.3%;
+    float: left;
+    text-align: left;  
+}
+
+.la a {
+    color: black;
+    text-decoration: none;
+    font-family: rockwell;
+}
+
+.la h1 {
+   font-family: rockwell;
+    text-align: left;
+    font-size: 25px;
+    background-position: left;
+    float: left;
+    height: 10%;
+    width: 50%;
+    margin-top: 230px;
+    margin-left: 500px; 
+}
+
+.la h2 {
+   position: absolute;
+    font-family: rockwell;
+    text-align: left;
+    font-size: 17px;
+    background-position: left;
+    float: left;
+    height: 10%;
+    margin-top: 290px;
+    margin-left: 500px; 
+}
+
+.la h3 {
+    position: absolute;
+    font-family: rockwell;
+    text-align: left;
+    font-size: 17px;
+    background-position: left;
+    float: left;
+    height: 10%;
+    margin-top: 310px;
+    margin-left: 500px;
+}
+
+.la h4 {
+    position: absolute;
+    font-family: rockwell;
+    text-align: left;
+    font-size: 17px;
+    background-position: left;
+    float: left;
+    height: 10%;
+    margin-top: 330px;
+    margin-left: 500px;
+}
+
+.fondo {
+    background-image: url(Fondo5.jpg);
+    width: 100%;
+    height: 750px;
+    background-size: cover;
+    float: center;
+    position: absolute;
+}
+
+.fondo h1 {
+    position: absolute;
+    font-family: rockwell;
+    text-align: center;
+    font-size: 37px;
+    margin-top: 100px;
+    margin-left: 320px;
+}
+
+.fondo h2 {
+    position: absolute;
+    font-family: rockwell;
+    text-align: center;
+    font-size: 17px;
+    margin-top: 210px;
+    margin-left: 497px;
+}
+
+.fondo h3 {
+    position: absolute;
+    font-family: rockwell;
+    text-align: center;
+    font-size: 17px;
+    margin-top: 230px;
+    margin-left: 521px;
+}
+
+.fondo h4 {
+    position: absolute;
+    font-family: rockwell;
+    text-align: center;
+    font-size: 17px;
+    margin-top: 250px;
+    margin-left: 550px;
+}
+
+.fondo h5 {
+    position: absolute;
+    font-family: rockwell;
+    text-align: center;
+    font-size: 17px;
+    margin-top: 350px;
+    margin-left: 230px;
+}
+
+.fondo h6 {
+    position: absolute;
+    font-family: rockwell;
+    text-align: center;
+    font-size: 37px;
+    margin-top: 450px;
+    margin-left: 490px;
+}
+
+.a {
+    background-image: url(F.png);
+    width: 11%;
+    height: 20%;
+    background-size: cover;
+    position: absolute;
+    margin-top: 530px;
+    margin-left: 330px;
+}
+
+.b {
+    background-image: url(I.png);
+    width: 11%;
+    height: 20%;
+    background-size: cover;
+    position: absolute;
+    margin-top: 530px;
+    margin-left: 490px;
+}
+
+.c {
+    background-image: url(Y.png);
+    width: 11%;
+    height: 20%;
+    background-size: cover;
+    position: absolute;
+    margin-top: 540px;
+    margin-left: 650px;
+}
+
+.d {
+   background-image: url(P.png);
+    width: 11%;
+    height: 25%;
+    background-size: cover;
+    position: absolute;
+    margin-top: 530px;
+    margin-left: 800px; 
+}
+
+.e {
+    height: 10%;
+    width: 33.3%;
+    float: left;
+    text-align: left;
+}
+
+.e img {
+     position: absolute;
+    width: 3.5%;
+    margin-top: 320px;
+    margin-left: 30px; 
+}
+
+.e h1 {
+    font-family: rockwell;
+    text-align: left;
+    width: 33.3%;
+    font-size: 25px;
+    background-position: left;
+    float: left;
+    height: 0px;
+    margin-top: 280px;
+    margin-left: 30px; 
+}
+
+.e h2 {
+    position: absolute;
+     font-family: rockwell;
+    text-align: left;
+    width: 50%;
+    font-size: 17px;
+    background-position: left;
+    float: left;
+    height: 0px;
+    margin-top: 410px;
+    margin-left: 30px; 
+}
+
+.e h3 {
+    position: absolute;
+     font-family: rockwell;
+    text-align: left;
+    width: 50%;
+    font-size: 17px;
+    background-position: left;
+    float: left;
+    height: 0px;
+    margin-top: 465px;
+    margin-left: 31px;
+}
+
+.e h4 {
+     position: absolute;
+     font-family: rockwell;
+    text-align: left;
+    width: 50%;
+    font-size: 17px;
+    background-position: left;
+    float: left;
+    height: 0px;
+    margin-top: 490px;
+    margin-left: 30px;
+
+}
+
+.f {
+   position: absolute;
+     height: 10%;
+    width: 33.3%;
+    float: left;
+    text-align: left; 
+}
+
+.f img {
+   width: 15%;
+    position: absolute;
+    margin-top: 312px;
+    margin-left: 70px; 
+}
+
+.g {
+    background-image: url(Y.jpg);
+    height: 10%;
+    width: 5%;
+    float: left;
+    text-align: left;
+    position: absolute;
+    background-size: cover;
+    margin-top: 318px;
+    margin-left: 132px;
+}
+
+.h {
+    background-image: url(P.jpg);
+    height: 10%;
+    width: 5%;
+    float: left;
+    text-align: left;
+    position: absolute;
+    background-size: cover;
+    margin-top: 315px;
+    margin-left: 200px;
+}
+
+.i {
+   height: 10%;
+    width: 10%;
+    float: left;
+    text-align: left;  
+}
+
+.j a {
+    color: black;
+    text-decoration: none;
+    font-family: rockwell;
+}
+
+.i h1 {
+    font-family: rockwell;
+    text-align: left;
+    font-size: 25px;
+    background-position: left;
+    float: left;
+    height: 10%;
+    width: 200%;
+    margin-top: 275px;
+    margin-left: 350px;
+}
+
+.i h2 {
+    position: absolute;
+    font-family: rockwell;
+    text-align: left;
+    font-size: 17px;
+    background-position: left;
+    float: left;
+    width: 10%;
+    height: 10%;
+    margin-top: 321px;
+    margin-left: 350px;
+}
+
+.i h3 {
+   position: absolute;
+    font-family: rockwell;
+    text-align: left;
+    font-size: 17px;
+    background-position: left;
+    float: left;
+    height: 10%;
+    margin-top: 340px;
+    margin-left: 350px; 
+}
+
+.i h4 {
+   position: absolute;
+    font-family: rockwell;
+    text-align: left;
+    font-size: 17px;
+    background-position: left;
+    float: left;
+    height: 10%;
+    margin-top: 360px;
+    margin-left: 350px; 
+}
+
+.i h5 {
+    position: absolute;
+    font-family: rockwell;
+    text-align: left;
+    font-size: 17px;
+    background-position: left;
+    float: left;
+    height: 10%;
+    margin-top: 380px;
+    margin-left: 350px;
+}
+
+.j {
+   height: 5%;
+    width: 33.3%;
+    float: left;
+    text-align: left; 
+}
+
+.i a {
+   color: black;
+    text-decoration: none;
+    font-family: rockwell;  
+}
+
+.j h1 {
+   font-family: rockwell;
+    text-align: left;
+    font-size: 25px;
+    background-position: left;
+    float: left;
+    height: 10%;
+    width: 50%;
+    margin-top: 274px;
+    margin-left: 500px;  
+}
+
+.j h2 {
+    position: absolute;
+    font-family: rockwell;
+    text-align: left;
+    font-size: 17px;
+    background-position: left;
+    float: left;
+    height: 10%;
+    margin-top: 321px;
+    margin-left: 500px; 
+}
+
+.j h3 {
+    position: absolute;
+    font-family: rockwell;
+    text-align: left;
+    font-size: 17px;
+    background-position: left;
+    float: left;
+    height: 10%;
+    margin-top: 341px;
+    margin-left: 500px;
+}
+
+.j h4 {
+   position: absolute;
+    font-family: rockwell;
+    text-align: left;
+    font-size: 17px;
+    background-position: left;
+    float: left;
+    height: 10%;
+    margin-top: 360px;
+    margin-left: 500px; 
+}
+
+.julian {
+    position: absolute;
+    background-image: url(jeans.jpg);
+    width: 50%;
+    height: 650px;
+    background-size: cover;
+    margin-top: 150px;
+    background-position: left;
+}
+
+.julian a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: rockwell;
+}
+
+.julian h1 {
+    font-family: rockwell;
+    color: white;
+    font-size: 100px;
+    margin-top: 210px;
+    margin-left: 140px;
+}
+
+.karla {
+    position: absolute;
+   background-image: url(camisas%20hombre.jpg);
+    width: 50%;
+    height: 650px;
+    background-size: cover;
+    margin-top: 150px; 
+    background-position: right;
+    margin-left: 631.4px;
+}
+
+.karla a {
+     color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: rockwell;
+}
+
+.karla h1 {
+   font-family: rockwell;
+    color: white;
+    font-size: 100px;
+    margin-top: 210px;
+    margin-left: 55px; 
+}
+
+.elizabeth {
+    position: absolute;
+    background-image: url(sudaderas.jpg);
+    width: 50%;
+    height: 650px;
+    background-size: cover;
+    margin-top: 150px;
+    background-position: top;
+}
+
+.elizabeth a {
+     color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: rockwell;
+}
+
+.elizabeth h1 {
+    font-family: rockwell;
+    color: white;
+    font-size: 100px;
+    margin-top: 250px;
+    margin-left: 70px; 
+}
+
+.lopez {
+    position: absolute;
+   background-image: url(invierno.jpg);
+    width: 50%;
+    height: 650px;
+    background-size: cover;
+    margin-top: 150px; 
+    background-position: top;
+    margin-left: 631.4px;
+}
+
+.lopez a {
+     color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: rockwell;
+}
+
+.lopez h1 {
+    font-family: rockwell;
+    color: white;
+    font-size: 100px;
+    margin-top: 250px;
+    margin-left: 60px;
+}
+
+.mujer {
+    background-image: url(mujer.jpg);
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-position: left; 
+}
+
+.hombre {
+    background-image: url(hombre.jpg);
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-position: left;
+}
+
+.z {
+    position: absolute;
+    background-image: url(jeans%20mujeres.jpg);
+    width: 50%;
+    height: 650px;
+    background-size: cover;
+    margin-top: 150px;
+    background-position: left; 
+}
+
+.z a {
+   color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: rockwell;
+}
+
+.z h1 {
+   font-family: rockwell;
+    color: white;
+    font-size: 100px;
+    margin-top: 210px;
+    margin-left: 140px; 
+}
+
+.y {
+   position: absolute;
+   background-image: url(playera.jpg);
+    width: 50%;
+    height: 650px;
+    background-size: cover;
+    margin-top: 150px; 
+    background-position: right;
+    margin-left: 631.4px; 
+}
+
+.y a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: rockwell;
+}
+
+.y h1 {
+   font-family: rockwell;
+    color: white;
+    font-size: 100px;
+    margin-top: 210px;
+    margin-left: 55px;  
+}
+
+.w {
+  position: absolute;
+    background-image: url(sudaderas%20mujer.jpg);
+    width: 50%;
+    height: 650px;
+    background-size: cover;
+    margin-top: 150px;
+    background-position: left;  
+}
+
+.w a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: rockwell;
+}
+
+.w h1 {
+   font-family: rockwell;
+    color: white;
+    font-size: 100px;
+    margin-top: 250px;
+    margin-left: 70px;  
+}
+
+.x {
+    position: absolute;
+   background-image: url(chamarras.jpg);
+    width: 50%;
+    height: 650px;
+    background-size: cover;
+    margin-top: 150px; 
+    background-position: top;
+    margin-left: 631.4px; 
+}
+
+.x a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: rockwell;
+}
+
+.x h1 {
+     font-family: rockwell;
+    color: white;
+    font-size: 100px;
+    margin-top: 250px;
+    margin-left: 60px;
+}
+
+.container {
+    position: absolute;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+
+.logo span {
+    color: black;
+}
+
+.contact-wrapper {
+    
+    margin-top: 150px;
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
+
+.contact-wrapper > * {
+    padding: 1em;
+}
+
+.contact-form {
+    background: white;
+    color: black;
+    font-size: 40px;
+    font-family: rockwell;
+}
+
+.contact-form form {
+    display: grid;
+    font-size: 14px;
+    background-color: white;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form label {
+    display: block;
+    font-family: rockwell;
+}
+
+.contact-form form p {
+    margin: 0;
+    padding: 1em;
+}
+
+.contact-form form .block {
+    grid-column: 1 / 3;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.contact-form form button {
+    background: white;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+    font-family: rockwell;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+    background: black;
+    color: black;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
+
+/* CONTACT INFO */
+.contact-info {
+    position: absolute;
+    margin-left: 440px;
+    background: white;
+    color: black;
+}
+
+.contact-info h4,
+.contact-info ul,
+.contact-info p {
+    text-align: center;
+    margin: 0 0 1rem 0;
+    font-family: rockwell;
+}
